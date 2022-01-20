@@ -10,4 +10,4 @@ target_include_directories(external INTERFACE ${Vulkan_INCLUDE_DIRS})
 
 target_link_directories(external INTERFACE fmt/lib)
 
-target_link_libraries(external INTERFACE spdlog fmt Vulkan::Vulkan)
+target_link_libraries(external INTERFACE fmt Vulkan::Vulkan)
