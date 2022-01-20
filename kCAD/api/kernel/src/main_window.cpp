@@ -13,6 +13,4 @@ namespace kernel::main_window
 
         setWindowTitle(config::Title);
     }
-
-    MainWindow::~MainWindow() = default;
 }

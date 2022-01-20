@@ -30,7 +30,7 @@ namespace kernel::main_window
     public:
         explicit MainWindow(QWidget *parent = nullptr);
 
-        ~MainWindow() final;
+        ~MainWindow() final = default;
     };
 }
 
